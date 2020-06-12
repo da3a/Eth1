@@ -27,3 +27,11 @@ useful Links
 Environment Variables
 https://medium.com/the-node-js-collection/
 making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786
+
+removing node_modules after adding to .gitignore
+
+
+git rm -r --cached .
+git add .
+git commit -m "remove gitignore files"
+git push
