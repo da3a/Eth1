@@ -18,9 +18,10 @@ used ropsten network
 * loop over all the transactions in that block
 * if the receiver field of a given transaction is the address we're monitoring, check the value 
 
-Test Wallet 
+# Transaction Checker v2
 
-travel latin future delay stumble balance issue dizzy resemble much pepper render
+
+
 
 useful Links 
 Environment Variables
