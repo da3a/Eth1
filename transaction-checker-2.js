@@ -25,7 +25,7 @@ class TransactionChecker
                 try {
                     let tx = await this.web3.eth.getTransaction(txHash);
                     if (tx != null){
-                        console.log(tx.from);
+                        console.log(`tx.from: ${tx.from}`);
                         if (this.account == tx.to.toLowerCase()){
                             console.log({address: tx.from, value: this.web3.utils.fromWei(tx.value, 'ether'), timestamp: new Date()});
                         }

@@ -4,8 +4,6 @@ const dotenv = require('dotenv');
 
 class TransactionChecker{
     
-//    dawa;
-//    account;
 
     constructor(projectId, account)
     {
